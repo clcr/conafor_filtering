@@ -1,0 +1,13 @@
+stable; MADmex out -999; no change
+changes: Whole image. Split into ones that first review said that they're permantent
+false changes
+
+
+Model outputs:
+Input: 2000 true, 2000 false
+Layers: all MADMex PCAs
+Model:RandomForestClassifter(trees=100): 0.404
+
+Input: As above
+Layers: all MADMex PCAs + area, length, dndvi
+Model: as above : 0.366
